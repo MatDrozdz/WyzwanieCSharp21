@@ -1,0 +1,6 @@
+
+Program jest uproszczonym, elektronicznym dziennikiem ucznia.
+Po uruchomieniu użytkownik jest proszony o wybór opcji z menu programu, która pozwoli na dodanie ucznia oraz jego ocen, lub też wyłączy program.
+Sposób wprowadzania danych został objety prostą walidacją, mającą na celu niedopuszczenie wprowadzenia nieprawidłowych wartości jak np. imię zawierające liczby.
+Uzytkownik porogramu może wprowadzać oceny z zakresu 1-6 oraz z "+", do momentu aż nie zostanie wciśnięty klawisz "Q", który zakończy działanie programu uprzednio wyświetlając 
+statyski ucznia obejmujące najwyższą ocenę, najniższą oraz średnią wszystkich ocen.

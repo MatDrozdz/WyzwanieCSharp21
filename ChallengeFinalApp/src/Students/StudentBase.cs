@@ -11,19 +11,14 @@ public abstract class StudentBase : IStudent
     }
 
     public event ParentInfoDelegate ParentInfo;
-
     public abstract void AddGrade(double grade);
-
     public abstract void AddGrade(string s);
-
     public virtual Statistic GetStatistic()
     {
-        throw new NotImplementedException();
+        return new Statistic();
     }
-
     public virtual void ShowStatistic()
     {
-        throw new NotImplementedException();
     }
 }
 

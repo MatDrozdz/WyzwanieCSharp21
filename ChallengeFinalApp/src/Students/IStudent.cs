@@ -1,5 +1,4 @@
-﻿
-public interface IStudent
+﻿public interface IStudent
 {
     string Name { get; set; }
     string Surname { get; set; }
@@ -8,7 +7,5 @@ public interface IStudent
     void AddGrade(string s);
     Statistic GetStatistic();
     void ShowStatistic();
-
-
 }
 

@@ -1,10 +1,8 @@
-﻿
-public class SavedStudent : StudentBase
+﻿public class SavedStudent : StudentBase
 {
     const string fileName = "StudentGrades";
     public event ParentInfoDelegate ParentInfo;
     private List<double> Grades = new List<double>();
-
     public SavedStudent(string name, string surname) : base(name, surname)
     {
     }
@@ -31,14 +29,12 @@ public class SavedStudent : StudentBase
         int.TryParse(s, out result);
         if (result > 0 && result <= 3)
         {
-
             this.Grades.Add(result);
             if (ParentInfo != null)
             {
                 ParentInfo(this, new EventArgs());
                 SaveGrade(fileName, result);
             }
-
         }
         else
         {
@@ -86,11 +82,8 @@ public class SavedStudent : StudentBase
                     default:
                         throw new ArgumentException("Invalid value!");
                 }
-
             }
         }
-
-
     }
     public override Statistic GetStatistic()
     {
@@ -111,7 +104,6 @@ public class SavedStudent : StudentBase
     public override void ShowStatistic()
     {
         Console.WriteLine($"STUDENT: {Name} {Surname}\nHigh Grade: {GetStatistic().HighGrade}\nLow Grade: {GetStatistic().LowGrade}\nAverage: {GetStatistic().Average}");
-
     }
 
     public void ChangeName(string newName)
@@ -126,12 +118,14 @@ public class SavedStudent : StudentBase
                 break;
             }
             else
+            {
                 isDigit = false;
+            }
         }
         if (!isDigit)
+        {
             this.Name = newName;
+        }
     }
-
-
 }
 

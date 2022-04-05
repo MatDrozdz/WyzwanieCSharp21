@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x/ihMsjoP6fvdAVnXjIBeYGXqi6ZxbBvTiY1NFVwRN0LvUAOOO8xH6T7DNvPNeOr8VhWQSBkM6p+WKteopmXCA==",
+  "dgSpecHash": "X7ohAnwVNFqdmVYV5obuP5XP8v+e4PoO1Djec59ip/Q+9uboQ7XVJbSbvCE/hEim57jDV1T8Vzb4okYt6D3eeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Matt\\Desktop\\WYZWANIE\\ChallengeFinalApp\\test\\finalapp.test\\finalapp.test.csproj",
+  "projectFilePath": "C:\\Users\\Matt\\Documents\\GitHub\\WyzwanieCSharp21\\ChallengeFinalApp\\test\\finalapp.test\\finalapp.test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Matt\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\Matt\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

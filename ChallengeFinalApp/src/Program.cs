@@ -1,7 +1,6 @@
 ﻿
 using ChallengeFinalApp;
 
-
 GradeBook.CreateGradeBook();
 
 

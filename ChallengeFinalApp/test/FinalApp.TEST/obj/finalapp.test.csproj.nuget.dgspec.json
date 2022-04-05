@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Matt\\Desktop\\WYZWANIE\\ChallengeFinalApp\\test\\finalapp.test\\finalapp.test.csproj": {}
+    "C:\\Users\\Matt\\Documents\\GitHub\\WyzwanieCSharp21\\ChallengeFinalApp\\test\\finalapp.test\\finalapp.test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Matt\\Desktop\\WYZWANIE\\ChallengeFinalApp\\src\\ChallengeFinalApp.csproj": {
+    "C:\\Users\\Matt\\Documents\\GitHub\\WyzwanieCSharp21\\ChallengeFinalApp\\src\\ChallengeFinalApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matt\\Desktop\\WYZWANIE\\ChallengeFinalApp\\src\\ChallengeFinalApp.csproj",
+        "projectUniqueName": "C:\\Users\\Matt\\Documents\\GitHub\\WyzwanieCSharp21\\ChallengeFinalApp\\src\\ChallengeFinalApp.csproj",
         "projectName": "ChallengeFinalApp",
-        "projectPath": "C:\\Users\\Matt\\Desktop\\WYZWANIE\\ChallengeFinalApp\\src\\ChallengeFinalApp.csproj",
+        "projectPath": "C:\\Users\\Matt\\Documents\\GitHub\\WyzwanieCSharp21\\ChallengeFinalApp\\src\\ChallengeFinalApp.csproj",
         "packagesPath": "C:\\Users\\Matt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matt\\Desktop\\WYZWANIE\\ChallengeFinalApp\\src\\obj\\",
+        "outputPath": "C:\\Users\\Matt\\Documents\\GitHub\\WyzwanieCSharp21\\ChallengeFinalApp\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Matt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -54,18 +54,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Matt\\Desktop\\WYZWANIE\\ChallengeFinalApp\\test\\finalapp.test\\finalapp.test.csproj": {
+    "C:\\Users\\Matt\\Documents\\GitHub\\WyzwanieCSharp21\\ChallengeFinalApp\\test\\finalapp.test\\finalapp.test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Matt\\Desktop\\WYZWANIE\\ChallengeFinalApp\\test\\finalapp.test\\finalapp.test.csproj",
+        "projectUniqueName": "C:\\Users\\Matt\\Documents\\GitHub\\WyzwanieCSharp21\\ChallengeFinalApp\\test\\finalapp.test\\finalapp.test.csproj",
         "projectName": "finalapp.test",
-        "projectPath": "C:\\Users\\Matt\\Desktop\\WYZWANIE\\ChallengeFinalApp\\test\\finalapp.test\\finalapp.test.csproj",
+        "projectPath": "C:\\Users\\Matt\\Documents\\GitHub\\WyzwanieCSharp21\\ChallengeFinalApp\\test\\finalapp.test\\finalapp.test.csproj",
         "packagesPath": "C:\\Users\\Matt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Matt\\Desktop\\WYZWANIE\\ChallengeFinalApp\\test\\finalapp.test\\obj\\",
+        "outputPath": "C:\\Users\\Matt\\Documents\\GitHub\\WyzwanieCSharp21\\ChallengeFinalApp\\test\\finalapp.test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Matt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Matt\\Desktop\\WYZWANIE\\ChallengeFinalApp\\src\\challengeFinalApp.csproj": {
-                "projectPath": "C:\\Users\\Matt\\Desktop\\WYZWANIE\\ChallengeFinalApp\\src\\challengeFinalApp.csproj"
+              "C:\\Users\\Matt\\Documents\\GitHub\\WyzwanieCSharp21\\ChallengeFinalApp\\src\\challengeFinalApp.csproj": {
+                "projectPath": "C:\\Users\\Matt\\Documents\\GitHub\\WyzwanieCSharp21\\ChallengeFinalApp\\src\\challengeFinalApp.csproj"
               }
             }
           }
@@ -134,7 +134,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

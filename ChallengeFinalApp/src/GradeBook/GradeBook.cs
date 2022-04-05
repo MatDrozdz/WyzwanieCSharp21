@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace ChallengeFinalApp
 {
-   public static class GradeBook
+    public static class GradeBook
     {
 
-       public static void CreateGradeBook()
+        public static void CreateGradeBook()
         {
             int menuChoise;
             bool correctMenu;
@@ -17,7 +17,6 @@ namespace ChallengeFinalApp
             {
                 Console.Clear();
                 Console.WriteLine($"Hello. Please choose option:\n\t1.Add student and grade.\n\t2.Exit");
-                //menuChoise = int.Parse(Console.ReadLine());
                 if (int.TryParse(Console.ReadLine(), out menuChoise)
                     && (menuChoise == 1 || menuChoise == 2))
                 {
@@ -44,14 +43,14 @@ namespace ChallengeFinalApp
                     break;
             }
         }
-        static void CreateStudentAndGrade()
+        private static void CreateStudentAndGrade()
         {
             string name = StringValidation($"Please enter student name:");
             string surname = StringValidation($"Please enter student surname");
             Console.Clear();
 
             InMemoryStudent student = new InMemoryStudent(name, surname);
-            //SavedStudent student = new SavedStudent(studentName,studentSurname);
+
             student.ParentInfo += SendInfromation;
 
             EnterGrade(student);
@@ -60,7 +59,7 @@ namespace ChallengeFinalApp
 
             student.ShowStatistic();
         }
-        static string StringValidation(string message)
+        private static string StringValidation(string message)
         {
             bool isValid = false;
             string nameOrSurname;
@@ -95,7 +94,7 @@ namespace ChallengeFinalApp
             while (!isValid);
             return nameOrSurname;
         }
-        static void EnterGrade(IStudent student)
+        private static void EnterGrade(IStudent student)
         {
             while (true)
             {
@@ -120,13 +119,13 @@ namespace ChallengeFinalApp
                         Console.WriteLine(ex.Message);
                     }
                     finally
-                    { //System.Console.WriteLine("Invalid value"); }
+                    {
+                        System.Console.WriteLine("Invalid value");
                     }
                 }
             }
         }
-
-        static void SendInfromation(object sender, EventArgs args)
+        private static void SendInfromation(object sender, EventArgs args)
         {
             Console.WriteLine("Need to inform parents about this grade!");
         }

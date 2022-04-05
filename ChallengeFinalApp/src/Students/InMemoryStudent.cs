@@ -1,5 +1,4 @@
-﻿
-public class InMemoryStudent : StudentBase
+﻿public class InMemoryStudent : StudentBase
 {
 
     public event ParentInfoDelegate ParentInfo;
@@ -91,11 +90,8 @@ public class InMemoryStudent : StudentBase
                     default:
                         throw new ArgumentException("Invalid value!");
                 }
-
             }
         }
-
-
     }
     public override Statistic GetStatistic()
     {
@@ -109,7 +105,6 @@ public class InMemoryStudent : StudentBase
     public override void ShowStatistic()
     {
         Console.WriteLine($"STUDENT: {Name} {Surname}\nHigh Grade: {GetStatistic().HighGrade}\nLow Grade: {GetStatistic().LowGrade}\nAverage: {GetStatistic().Average}");
-
     }
 
     public void ChangeName(string newName)
@@ -124,10 +119,14 @@ public class InMemoryStudent : StudentBase
                 break;
             }
             else
+            {
                 isDigit = false;
+            }
         }
         if (!isDigit)
+        {
             this.Name = newName;
+        }
     }
 
 }

@@ -12,7 +12,6 @@ public class Statistic
         LowGrade = double.MaxValue;
         HighGrade = double.MinValue;
     }
-
     public double Average
     {
         get
@@ -27,5 +26,4 @@ public class Statistic
         LowGrade = Math.Min(number, LowGrade);
         HighGrade = Math.Max(number, HighGrade);
     }
-
 }

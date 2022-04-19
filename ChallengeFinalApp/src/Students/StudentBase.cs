@@ -9,7 +9,6 @@ public abstract class StudentBase : IStudent
         Name = name;
         Surname = surname;
     }
-
     public event ParentInfoDelegate ParentInfo;
     public abstract void AddGrade(double grade);
     public abstract void AddGrade(string s);

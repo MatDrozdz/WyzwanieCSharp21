@@ -8,7 +8,6 @@ namespace ChallengeFinalApp
 {
     public static class GradeBook
     {
-
         public static void CreateGradeBook()
         {
             int menuChoise;
@@ -50,7 +49,6 @@ namespace ChallengeFinalApp
             Console.Clear();
 
             InMemoryStudent student = new InMemoryStudent(name, surname);
-
             student.ParentInfo += SendInfromation;
 
             EnterGrade(student);
@@ -129,6 +127,5 @@ namespace ChallengeFinalApp
         {
             Console.WriteLine("Need to inform parents about this grade!");
         }
-
     }
 }

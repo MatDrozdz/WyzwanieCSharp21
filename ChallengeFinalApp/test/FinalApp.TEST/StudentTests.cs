@@ -5,30 +5,6 @@ namespace finalapp.test;
 public class StudentMethodsTests
 {
     [Fact]
-    public void GetStudentReturnDifferenetObjects()
-    {
-        //arrange
-        var student1 = GetStudent("Mateusz","Drozdz");
-        var student2 = GetStudent("Romek","Atomek");
-        //act
-
-        //assert
-        Assert.NotSame(student1, student2);
-
-    }
-    [Fact]
-    public void GetStudentReturnSameObjects()
-    {
-        //arrange
-        var student1 = GetStudent("Mateusz","Drozdz");
-        var student2 = student1;
-        //act
-        student1.Equals(student2);
-        //assert
-        Assert.Same(student1, student2);
-        Assert.True(object.ReferenceEquals(student1, student2));
-    }
-    [Fact]
     public void GetStatisticTest()
     {
         //arrange

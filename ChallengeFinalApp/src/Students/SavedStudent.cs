@@ -6,7 +6,6 @@
     public SavedStudent(string name, string surname) : base(name, surname)
     {
     }
-
     static void SaveGrade(string name, double d)
     {
         using (var writter = File.AppendText($"{name}.csv"))
@@ -88,7 +87,6 @@
     public override Statistic GetStatistic()
     {
         var result = new Statistic();
-
         using (var reader = File.OpenText($"{fileName}.csv"))
         {
             var line = reader.ReadLine();
@@ -105,7 +103,6 @@
     {
         Console.WriteLine($"STUDENT: {Name} {Surname}\nHigh Grade: {GetStatistic().HighGrade}\nLow Grade: {GetStatistic().LowGrade}\nAverage: {GetStatistic().Average}");
     }
-
     public void ChangeName(string newName)
     {
         bool isDigit = false;

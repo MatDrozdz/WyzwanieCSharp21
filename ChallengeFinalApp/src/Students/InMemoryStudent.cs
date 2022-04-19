@@ -1,13 +1,11 @@
 ﻿public class InMemoryStudent : StudentBase
 {
-
     public event ParentInfoDelegate ParentInfo;
     private List<double> Grades = new List<double>();
 
     public InMemoryStudent(string name, string surname) : base(name, surname)
     {
     }
-
     public override void AddGrade(double grade)
     {
         this.Grades.Add(grade);
@@ -106,7 +104,6 @@
     {
         Console.WriteLine($"STUDENT: {Name} {Surname}\nHigh Grade: {GetStatistic().HighGrade}\nLow Grade: {GetStatistic().LowGrade}\nAverage: {GetStatistic().Average}");
     }
-
     public void ChangeName(string newName)
     {
         bool isDigit = false;
@@ -128,6 +125,5 @@
             this.Name = newName;
         }
     }
-
 }
 

@@ -116,10 +116,6 @@ namespace ChallengeFinalApp
                     {
                         Console.WriteLine(ex.Message);
                     }
-                    finally
-                    {
-                        System.Console.WriteLine("Invalid value");
-                    }
                 }
             }
         }
